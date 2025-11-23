@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# ⏱️ AI-Powered Time Scheduler
 
-## Project info
+An intelligent **AI-based Time Management & Timetable Generator** built using **React, TypeScript, Vite, Tailwind CSS, and Gemini API**.  
+This tool helps institutions, schools, colleges, and individuals automatically create optimized schedules based on given constraints.
 
-**URL**: https://lovable.dev/projects/02ccdd4b-7d5d-44f2-ada2-8f3551a3596b
+---
 
-## How can I edit this code?
+## 🌐 Live Demo
 
-There are several ways of editing your application.
+🔗 **Visit the Live App:** https://time-scheduler01.netlify.app/
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/02ccdd4b-7d5d-44f2-ada2-8f3551a3596b) and start prompting.
+## 📌 Project Overview
 
-Changes made via Lovable will be committed automatically to this repo.
+The **AI Time Scheduler** allows users to input:
 
-**Use your preferred IDE**
+- Number of classes  
+- Number of teachers  
+- Subjects  
+- Days  
+- Time slots  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+After processing, the system generates a fully optimized **conflict-free timetable** using the **Gemini Pro AI model**.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+All generated schedules follow teacher availability, subject limits, and time constraints.
 
-Follow these steps:
+---
+
+## 🚀 Features
+
+✔️ AI-powered scheduling using Gemini API  
+✔️ Auto-generated timetables within seconds  
+✔️ Clean UI built with shadcn-ui + Tailwind  
+✔️ Fully responsive design  
+✔️ Editable output  
+✔️ Reusable and extendable code structure  
+✔️ Supports multiple timetables  
+✔️ Deployed on Netlify  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|-----------|--------|
+| **React + TypeScript** | Frontend UI |
+| **Vite** | Super-fast build tool |
+| **Tailwind CSS** | Styling |
+| **shadcn-ui** | UI components |
+| **Gemini API** | AI model for generating schedules |
+| **Netlify** | Deployment |
+
+---
+
+## 📥 Installation (Run Locally)
+
+Make sure you have **Node.js** & **npm** installed.
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository
+git clone https://github.com/Neerajupadhayay2004/time-management
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Enter the project folder
+cd time-management
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start local development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/02ccdd4b-7d5d-44f2-ada2-8f3551a3596b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+App will start on:
+👉 http://localhost:5173
